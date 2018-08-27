@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>WarHammer Scraper</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Warhammer Community Scraper
+        </h1>
+        <p class="lead">Take Notes on Your Favourite Warhammer Community Articles</p>
+      </div>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="saved.html">Saved Articles</a>
+        </li>
+        <li>
+          <button type="button" class="btn btn-outline-danger" id="scrapeButton">Scrape Articles</button>
+        </li>
+      </ul>
+
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div id="articles"></div>
+      </div>
+      <div class="col-lg-6">
+        <div id="notes"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
